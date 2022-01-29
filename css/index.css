@@ -1,0 +1,267 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background: url(../img/cover.jpg) ;
+    
+}
+
+.container-menu{
+    background-color: rgba(31, 25, 13, 0.363);
+    height: 60px;
+    font-style: italic;
+}
+
+
+ul 
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	margin-left: 500px;
+    
+}
+
+li 
+{
+	float: left;
+	font-size: 25px;
+}
+
+li a 
+{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 22px;
+	color: white;
+}
+li a:hover{
+	background: rgba(173, 216, 230, 0.322);
+}
+.logo{
+    width: 40%;
+    height: 1%;
+  padding-left: 90px;
+  padding-top: 1px;
+}
+
+                                    /* container-profil */
+ 
+.container-profil{ 
+    margin-left: 40%;
+   
+}
+#p{
+    margin-left: 40%;
+}
+
+#hh2{
+    margin-left: 20%;
+    width: 300px;
+   
+}
+
+
+#profil{
+    width: 300px;
+    transition: width 2s, height 2s, transform 2s;
+   
+}
+
+#profil:hover{
+width: 400px;
+transform: rotate(360deg);
+
+}
+
+
+.container-inf{
+
+ 
+    
+}
+
+#i{
+    
+        text-decoration: overline;
+        
+    
+}
+
+
+.cr{
+    background-color: black;
+    height: 50px;
+    font-style: italic;
+    
+}
+#cr2{
+    height: 100px;
+    padding: auto;
+    font-style: italic;
+}
+
+
+body{
+    background-size: cover;
+    background-size: 100%;
+    height: 100%;
+    margin: 3;
+    
+   
+}
+
+.container-mywork{
+   background-image: url(../img/h.jpg);
+    height: 500px;
+    font-style: italic;
+}
+
+
+
+#Test1{
+    width: 500px;
+    transition: 1s;
+}
+
+#Test1:hover{
+width: 600px;
+transition: 1s;
+}
+#h2{
+    font-style: italic;
+}
+#p
+{
+    font-style: italic;
+}
+
+.container-MyCertificates{
+
+    background-color: rgba(13, 24, 24, 0.568);
+    height: 900px;
+    font-style: italic;
+    
+
+}
+
+#photo10{
+    width:350px;
+    transition: 1s;
+}
+#photo10:hover{
+    width: 600px;
+    transition: 1s;
+}
+#samewithe
+{
+    width: 300px;
+    transition: 1s;
+}
+#samewithe:hover{
+    width: 500px;
+    transition: 1s; 
+}
+#text1{
+    color: blanchedalmond;
+}
+.food-container
+{
+    margin-left: 260px;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border: 10px solid transparent;
+  padding: 15px;
+
+    
+  }
+ 
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #030101;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(252, 245, 241);
+    text-shadow: 0 0 3px #442222, 0 0 5px #0000FF;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.466);
+}
+
+
+
+
+.typewriter {
+    font-family:  italic;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid rgb(8, 7, 5);
+    box-sizing: border-box;
+    color: rgb(252, 232, 232);
+    
+}
+
+
+
+
+.typewriter-text2 {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 8s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 700;
+    border-right: 4px solid rgb(8, 7, 5);
+    box-sizing: border-box;
+    color: rgb(252, 232, 232);
+    
+}
+
+
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: rgb(39, 9, 9); 
+    }
+}
+
